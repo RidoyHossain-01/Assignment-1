@@ -9,7 +9,7 @@ body{
     
 }
 section{
-     margin: 116px 0;
+     margin: 130px 0;
 }
 
 
@@ -48,7 +48,7 @@ section{
 
 /* Header style starts here */
 header{
-     padding: 50px 150px 150px ;
+     padding: 50px 150px 200px ;
      background-image:url(Assets/Hero-bg.png);
 }
 .navbar{
@@ -86,7 +86,8 @@ main{
 /* action section starts here */
 .action{
      display: flex;
-     gap:220px
+     gap:220px;
+     align-items: center;
 }
 .action img{
      border-radius: 40px;
@@ -106,6 +107,9 @@ main{
      margin-bottom:0px;
 
 }
+.joined{
+     font-size: 35px;
+}
 .counts{
      display: flex;
      justify-content: space-around;
@@ -124,6 +128,10 @@ main{
 
 
 /* review section starts here */
+.user-reviews h2{
+     text-align: center;
+     margin-bottom: 40px;
+}
 .reviews{
      display: flex;
      justify-content: space-evenly;
@@ -162,6 +170,7 @@ main{
 .touch{
      display: flex;
      align-items: center;
+     gap: 50px;
 
 
 }
@@ -172,11 +181,11 @@ main{
 }
 .touch label{
      font-weight: bold;
-     color: #252432b0;
+     color: #252432d3;
 }
 
 .touch input[type="text"], [type="email"]{
-     height: 70px;
+     height: 40px;
      display: block;
      width: 100%;
      border-radius: 10px;
@@ -190,7 +199,7 @@ main{
 }
 .touch  textarea{
   
-     height: 120px;
+     height: 100px;
      display: block;
      width: 100%;
      border-radius: 10px;
@@ -206,7 +215,7 @@ main{
 .contact button{
    
      height:70px;
-     width: 100%;
+     width: 612px;
 }
 
 /* Get in Touch (contact) section style ends here */
@@ -236,6 +245,7 @@ footer h1{
 footer p{
      width: 60%;
      margin: auto;
+     margin-bottom: 30px;
 }
 footer li{
      list-style: none;
