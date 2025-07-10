@@ -124,8 +124,25 @@ main{
 
 
 /* review section starts here */
+.reviews{
+     display: flex;
+     justify-content: space-evenly;
+     gap: 15px;
+}
+.review{
+     width: 100%;
+     border: none;
+     background-color: rgba(255, 255, 255, 0.486);
+     border-radius: 15px;
+     
+}
+.review-headline{
+     font-size: 30px;
+     margin: 0;
+}
 .user-name{
      display: flex;
+     gap: 10px;
 }
 .user-name img{
      border-radius: 50px;
