@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+     max-width: 1440px;
+     margin: 0 auto;
+     font-family: "Raleway", sans-serif;
+    
+}
+/* shared style starts here */
+.btn-primary{
+     background-color: #4E47FF;
+     color: #ffffff;
+     padding:12px 36px;
+     font-weight: bold;
+     font-size: 16px;
+     border-radius: 10px;
+}
+.primary-color{
+     color: #4E47FF;
+}
+/* shared style ends here */
+/* Header style starts here */
+header{
+     padding: 50px 150px 150px ;
+     background-image:url(Assets/Hero-bg.png);
+}
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.navbar h3{
+     font-weight:34px;
+     font-family:inter;
+
+    
+}
+.hero{
+     text-align: center;
+     margin-top: 150px;
+     
+     
+}
+.hero h1{
+     font-size: 65px;
+     font-weight: bold;
+     margin-bottom:20px;
+}
+/* Header style ends here */
