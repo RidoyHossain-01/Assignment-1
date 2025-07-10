@@ -11,6 +11,8 @@ body{
 section{
      margin: 116px 0;
 }
+
+
 /* shared style starts here */
 .btn-primary{
      background-color: #4E47FF;
@@ -20,7 +22,14 @@ section{
      font-size: 16px;
      border-radius: 10px;
      border: none;
+      transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+.btn-primary:hover{
+   transform: scale(1.08); 
+  background-color: #4338ca;
+}
+
 .primary-color{
      color: #4E47FF;
 }
@@ -35,6 +44,8 @@ section{
      color: #2524328f;
 }
 /* shared style ends here */
+
+
 /* Header style starts here */
 header{
      padding: 50px 150px 150px ;
@@ -46,7 +57,7 @@ header{
      align-items: center;
 }
 .navbar h3{
-     font-weight:34px;
+    font-size: 30px;
      font-family:inter;
 
     
@@ -63,11 +74,15 @@ header{
      margin-bottom:20px;
 }
 /* Header style ends here */
+
+
 /* Main style starts here */
 main{
      max-width: 1140px;
      padding: 0 140px;
 }
+
+
 /* action section starts here */
 .action{
      display: flex;
@@ -77,4 +92,152 @@ main{
      border-radius: 40px;
 }
 /* action section ends here */
+
+
+/* Users style starts here */
+
+.users{
+     padding: 20px 145px;
+     background-color: #4d47ff10;
+     border-radius:24px;
+}
+.users h3{
+     text-align: center;
+     margin-bottom:0px;
+
+}
+.counts{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     margin-top: 0px;
+}
+.numbers{
+     font-size: 80px;
+     font-family: Inter;
+     font-weight: bold;
+     margin-top: 30px;
+     margin-bottom: 0px;
+}
+/* Users style ends here */
+
+
+
+/* review section starts here */
+.user-name{
+     display: flex;
+}
+.user-name img{
+     border-radius: 50px;
+}
+.name h4{
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+}
+
+
+
+/* review section ends here */
+
+
+/* Get in Touch (contact) section style starts here */
+.touch{
+     display: flex;
+     align-items: center;
+
+
+}
+.touch h1{
+     font-size:97px;
+     font-weight: bold;
+     padding: 70px 0px;
+}
+.touch label{
+     font-weight: bold;
+     color: #252432b0;
+}
+
+.touch input[type="text"], [type="email"]{
+     height: 70px;
+     display: block;
+     width: 100%;
+     border-radius: 10px;
+     padding: 20px;
+     font-size: 20px;
+     margin-bottom: 20px;
+     margin-top: 5px;
+     border: none;
+     /* background-color: white; */
+    
+}
+.touch  textarea{
+  
+     height: 120px;
+     display: block;
+     width: 100%;
+     border-radius: 10px;
+     padding: 20px;
+     font-size: 20px;
+     margin-bottom: 20px;
+      margin-top: 5px;
+     border: none;
+}
+.contact{
+     width: 50%;
+}
+.contact button{
+   
+     height:70px;
+     width: 100%;
+}
+
+/* Get in Touch (contact) section style ends here */
+
+
+
+
 /* Main style ends here */
+
+
+
+/* footer section starts here  */
+footer{
+     text-align: center;
+     margin-bottom: 50px;
+     background-color: white;
+     padding:100px 0;
+}
+footer h1{
+     font-size: 80px;
+     font-family: Inter;
+     font-weight: bolder;
+     margin-bottom: 10px;
+   
+     
+}
+footer p{
+     width: 60%;
+     margin: auto;
+}
+footer li{
+     list-style: none;
+}
+.footer-nav{
+     display: flex;
+     justify-content:center;
+     gap: 40px;
+     margin-bottom: 20px;
+    
+}
+footer li a{
+     text-decoration: none; 
+     color: #00000070;
+     font-size: 20px;
+     font-weight: bold;
+}
+footer li a:hover{
+     color: #4338ca;
+}
+
+/* footer section ends here  */
